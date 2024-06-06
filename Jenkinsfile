@@ -1,7 +1,7 @@
 pipeline {
     agent any
       tools {
-        nodejs 'recentNode' 
+        nodejs 'AutoglassNodeJS' 
       }
     stages {
         stage('Build') {
